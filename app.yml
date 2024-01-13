@@ -1,0 +1,7 @@
+runtime: python39  # Choose the appropriate Python version
+
+instance_class: F4_1G  # Choose your desired instance type
+
+handlers:
+- url: /video
+  script: auto
